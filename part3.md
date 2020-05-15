@@ -16,12 +16,12 @@ it will list files and folder on that path if your terminal support colors you m
 ```ls -a``` if you are confused with `.` and `..` then use ```ls -A```
 
 ### file search using ls 
-i am searching for file that ends with x ``` ls *x```
-```ls s*``` will search all files starting with s on current path
-```ls x??``` this will display chars with x and any two letters
-what if I have multiple folders at my current path and want to chek them too
-```ls -R */x```
-if you know what pipe is (will cover later) you can try using grep 
+i am searching for file that ends with x ``` ls *x```\
+```ls s*``` will search all files starting with s on current path\
+```ls x??``` this will display chars with x and any two letters\
+what if I have multiple folders at my current path and want to chek them too\
+```ls -R */x```\
+if you know what pipe is (will cover later) you can try using grep
 
 ### my terminal shows color and I know what color means what if its dosent support color how can I differinciate between files dirs or symbolic links etc etc
 ```ls -F```
@@ -50,7 +50,7 @@ oooo too much information but what do that means ?
 
 In some permission systems additional symbols in the ls -l display represent additional permission features:
 
-> + (plus) suffix indicates an access control list that can control additional permissions.
+> + (plus) suffix indicates an access control list that can control additional permissions.\
 > . (dot) suffix indicates an SELinux context is present. Details may be listed with the command ls -Z.
 > @ suffix indicates extended file attributes are present.
 
